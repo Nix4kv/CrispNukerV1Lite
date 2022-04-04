@@ -49,7 +49,7 @@ Start the script ``main.py``.
 
 #### Is the bot finished?
 
-No. The bot is still being developed.
+No. The bot is not yet finished.
 
 #### Is the script yours?
 
