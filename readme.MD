@@ -41,6 +41,9 @@ pip install asyncio
 
 Start the script ``main.py``.
 
+<p align="center">
+<img src="https://cdn.discordapp.com/attachments/917035461397082192/960483732928745483/video_20220404_181203_edit.gif">
+</p>
 
 ## FAQ
 

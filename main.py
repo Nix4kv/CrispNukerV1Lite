@@ -17,11 +17,11 @@ denied = fg('#ff0019')
 df_color = fg('#0b678f')
 df_yellow = fg('#ccc900')
 
-token = input("Token: ")
-spam_channel_name = input("Spam Channel Name: ")
-spam_message_text = input("Spam Message Text: ")
+token = input(f"{df_color}[+] {df_yellow}Token: " + Fore.RESET)
+spam_channel_name = input(f"{df_color}[+] {df_yellow}Spam Channel Name: " + Fore.RESET)
+spam_message_text = input(f"{df_color}[+] {df_yellow}Spam Message Text: " + Fore.RESET)
 
-role_name = input("Role Name: ")
+role_name = input(f"{df_color}[+] {df_yellow}Role Name: " + Fore.RESET)
 
 
 os.system('cls')
@@ -45,7 +45,7 @@ async def on_ready():
 {df_color}[+]{df_yellow} Channel name : {spam_channel_name} 
 {df_color}[+]{df_yellow} Message      : {spam_message_text}
 {df_color}[+]{df_yellow} Role name    : {role_name}
- ''')
+ ''' + Fore.RESET)
 
 
 
