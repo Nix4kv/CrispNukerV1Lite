@@ -33,8 +33,12 @@ async def on_ready():
 {font_color}             ✡ | Server       : Noxious
 {font_color}             ✡ | Link         : .gg/MCZKVXjHv6
 {font_color}        ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-{df_color}{df_color}[+]{df_yellow}{df_yellow} Start: ",nuke" ; Stop: ",stop"
-{df_color}{df_color}[+]{df_yellow}{df_yellow} Follow me on {df_color}TWT: @KiseeIsHere
+{df_color}[+]{df_yellow} Start: ",nuke" ; Stop: ",stop"
+{df_color}[+]{df_yellow} Follow me on {df_color}TWT: @KiseeIsHere
+
+{df_color}[+]{df_yellow} Channel name : {spam_channel_name} 
+{df_color}[+]{df_yellow} Message      : {spam_message_text}
+{df_color}[+]{df_yellow} Role name    : {role_name}
  ''')
 
 

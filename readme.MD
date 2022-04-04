@@ -39,7 +39,7 @@ pip install asyncio
 ```
 ## Deployment
 
-Start the application ``CrispNukerV1Lite``.
+Start the script ``main.py``.
 
 
 ## FAQ
