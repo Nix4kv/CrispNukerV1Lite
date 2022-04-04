@@ -24,6 +24,9 @@ spam_message_text = input("Spam Message Text: ")
 role_name = input("Role Name: ")
 
 
+os.system('cls')
+os.system('title CrispNukerV1Lite')
+
 client = commands.Bot(command_prefix=",")
 
 @client.event
@@ -97,7 +100,7 @@ async def nuke(ctx):
         try:
             await user.ban()
         except:
-         print(f"{df_color}[+]{df_yellow} {guild.name} Successfully Nuked using CrispNukerV1Lite")
+         print(f"{df_color}[+]{df_yellow} {guild.name} Successfully Nuked using CrispNukerV1Lite" + Fore.RESET)
     return
 
 @client.event

@@ -1,7 +1,7 @@
 
 # CrispNukerV1Lite
 
-note: Make sure to give me feedbacks.
+note: This script is going to be private once it's finished.
 
 
 
