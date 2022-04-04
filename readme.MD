@@ -1,7 +1,7 @@
 
 # CrispNukerV1Lite
 
-note: I do not own the script. I just modified it to something more convenient.
+note: Make sure to give me feedbacks.
 
 
 

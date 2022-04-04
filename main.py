@@ -2,10 +2,14 @@ import discord
 from discord.ext import commands
 from discord import Permissions
 from colorama import Fore, Style
+import os
 from os import system
 from colored import fg, attr
 from discord.ext import commands
 from pypresence import Presence
+
+os.system('cls')	
+os.system('title CrispNukerV1Lite')
 
 font_color = fg('#ccc900')
 granted = fg('#59ff00')
@@ -22,7 +26,6 @@ role_name = input("Role Name: ")
 
 client = commands.Bot(command_prefix=",")
 
-system("cls")
 @client.event
 async def on_ready():
    print(f''' 
