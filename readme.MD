@@ -47,9 +47,9 @@ Start the script ``main.py``.
 
 ## FAQ
 
-#### Is the bot finished?
+#### Is this finished?
 
-No. The bot is not yet finished.
+No. This is not yet finished.
 
 #### Is the script yours?
 
