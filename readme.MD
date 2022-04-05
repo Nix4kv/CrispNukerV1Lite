@@ -55,7 +55,3 @@ Start the script ``main.py``.
  - Admin Enabled For Everyone
  - Change Server Name (NEW)
  - Mass Ping (NEW)
-
-### Next update: 
-- Change Server Icon
-- Delete All Stickers
