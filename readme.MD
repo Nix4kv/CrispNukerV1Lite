@@ -1,7 +1,7 @@
 
 # CrispNukerV1Lite
 
-note: Once it's finished. I'm going to private this repo.
+note: This repo is finally finished. Give me feedback once you used the code. Should I make this into an exe file or application.
 
 
 
