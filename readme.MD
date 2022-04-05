@@ -1,7 +1,7 @@
 
 # CrispNukerV1Lite
 
-note: This script is going to be private once it's finished.
+note: Once it's finished. I'm going to private this repo.
 
 
 
