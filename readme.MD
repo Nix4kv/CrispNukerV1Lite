@@ -45,17 +45,6 @@ Start the script ``main.py``.
 <img src="https://cdn.discordapp.com/attachments/917035461397082192/960483732928745483/video_20220404_181203_edit.gif">
 </p>
 
-## FAQ
-
-#### Is the bot finished?
-
-No. The bot is still being developed.
-
-#### Is the script yours?
-
-No. This script is just from another git and I forked it and modified to something more convenient.
-
-
 ## Features
 
  - Delete All Channels & Roles
