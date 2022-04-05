@@ -7,7 +7,7 @@ note: Once it's finished. I'm going to private this repo.
 
 
 ## 🚀 About Me
-I'm just bored.
+I'm just bored. 🥱
 
 
 ## Connections
@@ -53,9 +53,9 @@ Start the script ``main.py``.
  - Mass Create Roles
  - Ban All Members
  - Admin Enabled For Everyone
+ - Change Server Name (NEW)
+ - Mass Ping (NEW)
 
 ### Next update: 
-- Mass Spam Ping Channel
 - Change Server Icon
-- Change Server Name
 - Delete All Stickers

