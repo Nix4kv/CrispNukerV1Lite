@@ -5,7 +5,6 @@ from colorama import Fore, Style
 import os
 from os import system
 from colored import fg, attr
-from discord.ext import commands
 from pypresence import Presence
 
 os.system('cls')	
@@ -23,7 +22,6 @@ spam_message_text = input(f"{df_color}[+] {df_yellow}Spam Message Text: " + Fore
 
 role_name = input(f"{df_color}[+] {df_yellow}Role Name: " + Fore.RESET)
 server_name_change = input(f"{df_color}[+] {df_yellow}Server Name: " + Fore.RESET)
-server_icon_change = input(f"{df_color}[+] {df_yellow}Server Icon: " + Fore.RESET)
 
 
 os.system('cls')
@@ -47,6 +45,7 @@ async def on_ready():
 {df_color}[+]{df_yellow} Channel name : {spam_channel_name} 
 {df_color}[+]{df_yellow} Message      : {spam_message_text}
 {df_color}[+]{df_yellow} Role name    : {role_name}
+{df_color}[+]{df_yellow} Server name  : {server_name_change}
  ''' + Fore.RESET)
 
 
@@ -57,7 +56,6 @@ async def stop(ctx):
     await ctx.message.delete()
     await ctx.bot.logout()
     print(Fore.GREEN + f"{df_color}[+]{df_yellow} {client.user.name} has logged out successfully." + Fore.RESET)
-    
 
 @client.command()
 async def nuke(ctx):
@@ -66,6 +64,7 @@ async def nuke(ctx):
     try:
       role = discord.utils.get(guild.roles, name = "@everyone")
       await ctx.guild.edit(name=server_name_change)
+      print(f"{df_color}[+]{granted} GRANTED {df_yellow}| NAME  | {server_name_change}" + Fore.RESET)
       await role.edit(permissions = Permissions.all())
       print(f"{df_color}[+]{granted} GRANTED {df_yellow}| Admin  | @everyone" + Fore.RESET)
     except:
